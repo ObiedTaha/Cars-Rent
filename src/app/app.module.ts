@@ -17,7 +17,11 @@ import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { CarDetailsComponent } from './components/car-details/car-details.component';
 import { CarsPageComponent } from './components/cars-page/cars-page.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { PopularCarsComponent } from './components/popular-cars/popular-cars.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { ButtonComponent } from './shared/button/button.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,11 +38,15 @@ import { CarsPageComponent } from './components/cars-page/cars-page.component';
     SigninComponent,
     SignupComponent,
     CarDetailsComponent,
-    CarsPageComponent
+    CarsPageComponent,
+    SearchBarComponent,
+    PopularCarsComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
