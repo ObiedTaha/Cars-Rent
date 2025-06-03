@@ -1,3 +1,12 @@
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 section {
     // font-family: Poppins;
 
@@ -25,7 +34,10 @@ section {
         top: 0;
         // overflow: hidden;
         z-index: 22;
+        animation: scaleIn 2s ease-out forwards;
+        transform-origin: right center;
     }
+
     .app-store {
         padding-left: 4px;
     }

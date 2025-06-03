@@ -9,7 +9,6 @@ export class CarsService {
 
   constructor(private http:HttpClient ) { }
 
-
   getLimitCars():Observable<any>{
     return this.http.get(`https://freetestapi.com/api/v1/cars`);
   }

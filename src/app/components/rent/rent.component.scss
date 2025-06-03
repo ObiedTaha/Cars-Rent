@@ -1,0 +1,17 @@
+section {
+    text-align: center;
+
+    .shild {
+        width: 112px;
+        height: 112px;
+        background-color: #ECF5FF;
+        border-radius: 20px;
+    }
+
+    .col-md-3 {
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}

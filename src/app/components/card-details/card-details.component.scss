@@ -1,0 +1,28 @@
+
+    .card{
+        box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: .2);
+    
+        span {
+            font-size: 11px;
+        }
+        .fa-star {
+            color: gold;
+        }
+        
+        .btn-rent {
+            background-color: #1572D3;
+            color: white;
+        }
+        
+        .btn-show {
+            color: #4E4E4E;
+            padding: 8px 40px;
+            border: 1px solid #E0E0E0;
+        }
+    }
+
+
+.bg{
+    background-color: black !important;
+}
+

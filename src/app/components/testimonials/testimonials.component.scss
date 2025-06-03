@@ -1,0 +1,24 @@
+section {
+    padding-bottom: 50px;
+    background-color: #f7fbff;
+    background-image: url('../../../assets/images/“.svg');
+    background-position: 90% 0%;
+    background-repeat: no-repeat;
+
+    ::ng-deep {
+        .owl-carousel {
+            .owl-stage-outer {
+                padding: 0;
+            }
+            
+            .owl-item {
+                opacity: 1;
+                transition: opacity 0.3s ease;
+                
+                &.active {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

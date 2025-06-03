@@ -10,18 +10,18 @@ export class CarDetailsComponent {
   constructor(private carsService: CarsService) { }
 
 
-  ngOnInit(): void {
-    this.getlimits();
-  }
+  // ngOnInit(): void {
+  //   this.getlimits();
+  // }
   
-  getlimits() {
-    this.carsService.getLimitCars().subscribe({
-      next: (response) => {
-        console.log(response);
-      },
-      error: (err) => {
-        console.log(err);
-      }
-    })
-  }
+  // getlimits() {
+  //   this.carsService.getLimitCars().subscribe({
+  //     next: (response) => {
+  //       console.log(response);
+  //     },
+  //     error: (err) => {
+  //       console.log(err);
+  //     }
+  //   })
+  // }
 }

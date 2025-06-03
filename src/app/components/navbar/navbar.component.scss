@@ -3,12 +3,18 @@ nav {
     height: 60px;
     letter-spacing: 1px;
     background-color: transparent !important;
-
+    transition: all 0.3s ease;
     position: fixed;
     top: 0;
     left: 0 !important;
     margin: auto;
     z-index: 9999;
+
+    &.navbar-scrolled {
+        background-color: white !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        height: 70px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
