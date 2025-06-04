@@ -1,0 +1,21 @@
+section {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../../assets/images/choose-us/Vector.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    .col-md-6 {
+        .bg-car {
+            position: absolute;
+            top: 27%;
+            left: 0;
+        }
+    }
+
+    .btn {
+        text-align: left !important;
+    }
+
+}

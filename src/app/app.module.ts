@@ -15,7 +15,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { CarDetailsComponent } from './components/car-details/car-details.component';
 import { CarsPageComponent } from './components/cars-page/cars-page.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import { PopularCarsComponent } from './components/popular-cars/popular-cars.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ButtonComponent } from './shared/button/button.component';
@@ -24,6 +23,7 @@ import { CarTypeComponent } from './components/car-type/car-type.component';
 import { IconComponent } from './components/icon/icon.component';
 import { RouterModule, Routes } from '@angular/router';
 import { DowenloadAppComponent } from './components/dowenload-app/dowenload-app.component';
+import { CaridComponent } from './components/carid/carid.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,11 +40,11 @@ import { DowenloadAppComponent } from './components/dowenload-app/dowenload-app.
     CarDetailsComponent,
     CarsPageComponent,
     SearchBarComponent,
-    PopularCarsComponent,
     ButtonComponent,
     CarTypeComponent,
     IconComponent,
-    DowenloadAppComponent
+    DowenloadAppComponent,
+    CaridComponent
   ],
   imports: [
     BrowserModule,
